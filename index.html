@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cluster Rica KPI Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Cluster Rica KPI Dashboard</h1>
+  </header>
+
+  <main>
+    <section class="kpi-container">
+      <div class="kpi-card">
+        <h2 id="releaseRate">12/mo</h2>
+        <p>Release Rate</p>
+      </div>
+      <div class="kpi-card">
+        <h2 id="nps">75</h2>
+        <p>NPS</p>
+      </div>
+      <div class="kpi-card">
+        <h2 id="csat">88%</h2>
+        <p>CSAT</p>
+      </div>
+      <div class="kpi-card">
+        <h2 id="sales">$120K</h2>
+        <p>Sales</p>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <h3>Update KPI Values</h3>
+      <form id="kpiForm">
+        <label>Release Rate: <input type="text" id="releaseInput"></label><br>
+        <label>NPS: <input type="text" id="npsInput"></label><br>
+        <label>CSAT: <input type="text" id="csatInput"></label><br>
+        <label>Sales: <input type="text" id="salesInput"></label><br>
+        <button type="submit">Update</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
