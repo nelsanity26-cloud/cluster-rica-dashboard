@@ -51,3 +51,16 @@ button {
 button:hover {
   background: #219150;
 }
+.bonus-section {
+  margin: 40px;
+  padding: 20px;
+  background: #eef;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#bonusResult {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #2c3e50;
+}
