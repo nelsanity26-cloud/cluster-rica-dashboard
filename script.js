@@ -10,8 +10,7 @@ document.getElementById("kpiForm").addEventListener("submit", function(e) {
   if (nps) document.getElementById("nps").textContent = nps;
   if (csat) document.getElementById("csat").textContent = csat;
   if (sales) document.getElementById("sales").textContent = sales;
-});
-document.getElementById("bonusForm").addEventListener("submit", function(e) {
+  document.getElementById("bonusForm").addEventListener("submit", function(e) {
   e.preventDefault();
 
   const nps = parseFloat(document.getElementById("npsBonus").value);
@@ -38,3 +37,4 @@ document.getElementById("bonusForm").addEventListener("submit", function(e) {
   document.getElementById("bonusResult").textContent =
     `Bonus Achieved: ${bonus}% | Multiplier: x${multiplier}`;
 });
+
