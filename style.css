@@ -50,8 +50,7 @@ button {
 }
 button:hover {
   background: #219150;
-}
-.bonus-section {
+  .bonus-section {
   margin: 40px;
   padding: 20px;
   background: #eef;
@@ -64,3 +63,4 @@ button:hover {
   font-weight: bold;
   color: #2c3e50;
 }
+
